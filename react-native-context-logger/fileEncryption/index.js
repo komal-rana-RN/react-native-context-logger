@@ -1,5 +1,5 @@
 import { NativeModules } from "react-native";
-import config from "../../config";
+import config from "../config";
 const { ENCRYPTION_IV } = config;
 /**
  * npm i react-native-aes-crypto

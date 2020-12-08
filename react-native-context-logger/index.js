@@ -3,7 +3,7 @@ import { useCallback } from "react";
 import _ from "lodash";
 import { allFile, sizeOfFile, createFile, deleteFile, isFile, editFile, readFile, uploadFile } from "./fileManager";
 import { generateKey, encryptData, decryptData } from "./fileEncryption";
-import config from "../config";
+import config from "./config";
 const { ENCRYPTION_KEY, SPLITING_STRING_WHILE_FILEENCRYPTION, LOGGER_FILE_NAME } = config;
 
 const useLogger = (reducer) => {
