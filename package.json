@@ -1,6 +1,6 @@
 {
   "name": "react-native-context-logger",
-  "version": "2.0.0",
+  "version": "1.1.0",
   "description": "This Package contains hook called useLogger to log context reducer states and action information we are dispatching.",
   "main": "index.js",
   "scripts": {
